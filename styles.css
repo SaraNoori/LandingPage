@@ -1,0 +1,18 @@
+* {
+    color:white;
+    font-family: 'Roboto', 'Comic Sans MS';
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.logo {
+    size: 24px;
+
+}
+
+.ul {
+    display: flex;
+}
