@@ -7,7 +7,7 @@ body {
     font-family: 'Lucida Sans', monospace;
 }
 
-.header, .intro {
+.header, .intro, .footer {
     background-color: #1f2937;
 }
 
@@ -73,7 +73,7 @@ button {
     justify-content: center;
 }
 
-.infoHeader {
+.infoHeader, .quotedGuy {
     font-size: 36px;
     font-weight: bolder;
 }
@@ -84,6 +84,7 @@ button {
     flex-flow: wrap;
     justify-content: center;
     gap: 3em;
+    margin: 2em auto 2em;
 }
 
 .image1 {
@@ -97,5 +98,65 @@ button {
     border: 10px blue;
     border-radius: 12px;
     height: auto;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.quote {
+    margin: 3em 25% auto;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.quotedGuyContainer {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signUpSection {
+    margin: 5em auto;
+    display: flex;
+    justify-content: center;
+}
+
+.signUpContainer {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 1em 4em;
+    border-radius: 12px;
+}
+
+.signUpHeader {
+    margin: 0.5em auto;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.signUpTxt {
+    margin: 0.5em auto;
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.whiteBorder {
+    border: 2px solid white;
+}
+
+.footer {
+    display:flex;
+    padding: 1em;
+    justify-content: center;
 }
 
